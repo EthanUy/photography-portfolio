@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+.name-container{
+    font-family: "Poppins", sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.body-text {
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.profile-image{
+    width:100%;
+    height: auto;
+}
+
+body {
+    background-color: #F6F3EA;
+}
+
+.about-links {
+    background-color: #D58945;   
+    width: 50%;
+}
+
+.about-svg {
+    width:3em;
+    padding:.4rem;
+}

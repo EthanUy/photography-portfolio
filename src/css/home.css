@@ -1,0 +1,13 @@
+.image-home {
+    width: 100%;
+}
+
+.explore-link {
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    color:#333;
+}
