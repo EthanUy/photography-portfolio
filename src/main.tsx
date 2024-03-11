@@ -4,16 +4,18 @@ import App from "./App.tsx";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
-import pajara2 from "../public/pajara2.jpg"; 
-import pajara1 from "../public/pajara1.jpg";
-import dylan from "../public/dylan.jpg";
-import pajara3 from "../public/pajara3.jpg";
-import alice from "../public/alice.jpg";
-import trev from "../public/trev.jpg";
-import profile from "../public/profile.jpg";
-import facebook from "../public/facebook.svg";
-import instagram from "../public/instagram.svg";
-import github from "../public/github.svg";
+import pajara2 from "/pajara2.jpg"; 
+import pajara1 from "/pajara1.jpg";
+import dylan from "/dylan.jpg";
+import pajara3 from "/pajara3.jpg";
+import alice from "/alice.jpg";
+import trev from "/trev.jpg";
+import profile from "/profile.jpg";
+import facebook from "/facebook.svg";
+import instagram from "/instagram.svg";
+import github from "/github.svg";
+import shutterDark from "/cameraShutterDark.svg";
+import shutterLight from "/cameraShutterLight.svg";
 
 export {
     pajara2,
@@ -25,7 +27,9 @@ export {
     profile,
     facebook,
     instagram,
-    github
+    github,
+    shutterDark,
+    shutterLight
     /** other exports */
   };
 
