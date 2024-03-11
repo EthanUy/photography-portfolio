@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <NavBar name="ETHAN LYLE UY" />
+      <NavBar/>
       <div className="container-fluid p-0">
         <Routes>
           <Route path="/" element={<Home />}></Route>
