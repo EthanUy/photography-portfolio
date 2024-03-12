@@ -9,7 +9,7 @@ import { trev } from "../main";
 const Work = () => {
   return (
     <>
-      <div className="container">
+      <div className="container-fluid p-5">
         <div className="row mt-5">
           <div className="col-md-6">
             <img className="image" src={pajara1}></img>

@@ -1,5 +1,5 @@
 import { ReactNode, useEffect, useState} from "react";
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { Link, useMatch, useResolvedPath, useLocation } from "react-router-dom";
 import { shutterDark } from "../main";
 import { shutterLight } from "../main";
 import "../css/navbar.css";
@@ -10,24 +10,37 @@ function NavBar() {
   const [backgroundColor,setBackgroundColor] = useState("#ffffff00");
   const [color, setColor] = useState("#333");
   const [logo, setLogo] = useState("dark");
+  const location = useLocation();
 
   const changeBackground = () => {
-    if(window.scrollY >= 64){
+    if(location.pathname=="/"){
+      if(window.scrollY >= 64){
+        setBackgroundColor("#333");
+        setColor("#F6F3EA");
+        setLogo("light");
+      } else {
+        setBackgroundColor("#ffffff00");
+        setColor("#333");
+        setLogo("dark");
+      }
+    } else {
       setBackgroundColor("#333");
       setColor("#F6F3EA");
       setLogo("light");
-    } else {
-      setBackgroundColor("#ffffff00");
-      setColor("#333");
-      setLogo("dark");
     }
   }
 
   useEffect(() => {
     changeBackground();
 
-    window.addEventListener("scroll", changeBackground);
+    if(location.pathname=="/"){
+      window.addEventListener("scroll", changeBackground);
+    }
   });
+
+  useEffect(()=>{
+    changeBackground();
+  },[location]);
 
   return (
     <nav className="nav" style={{backgroundColor:backgroundColor}}  >
