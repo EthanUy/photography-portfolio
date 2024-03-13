@@ -16,7 +16,7 @@ function NavBar() {
     if(location.pathname=="/"){
       if(window.scrollY >= 64){
         setBackgroundColor("#333");
-        setColor("#F6F3EA");
+        setColor("#C1BDB4");
         setLogo("light");
       } else {
         setBackgroundColor("#ffffff00");
@@ -25,7 +25,7 @@ function NavBar() {
       }
     } else {
       setBackgroundColor("#333");
-      setColor("#F6F3EA");
+      setColor("#C1BDB4");
       setLogo("light");
     }
   }
@@ -48,6 +48,7 @@ function NavBar() {
         <img src={logo == "light" ? shutterLight : shutterDark} />
       </Link>
       <ul className="me-3 gap-0" style={{color:color}}>
+        <CustomLink to="/">HOME</CustomLink>
         <CustomLink to="/work">WORK</CustomLink>
         <CustomLink to="/about">ABOUT</CustomLink>
       </ul>

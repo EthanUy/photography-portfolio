@@ -24,7 +24,7 @@ body::-webkit-scrollbar {
 .nav {
     padding-top: 0rem;
     height: 4rem;
-    color: white;
+    color: #C1BDB4;
     display: flex;
     justify-content:space-between;
     align-items: stretch;
@@ -52,11 +52,11 @@ body::-webkit-scrollbar {
 }
 
 .nav li.active{
-    background-color: #555;
+    color: #F6F3EA;
 }
 
 .nav li:hover {
-    background-color: #777;
+    color: #F6F3EA;
 }
 
 li {
