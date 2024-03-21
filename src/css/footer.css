@@ -1,0 +1,39 @@
+footer {
+    background-color: #333;
+    color:#F6F3EA;
+    height:fit-content;
+    font-family: "Manrope", sans-serif;
+    align-items: center;
+    display: flex;
+    width: 100vw;    
+    margin-top: auto;
+    padding: 3px;
+}
+
+
+.logo {
+    height:3em;
+}
+
+.brand-logo {
+    height: 1.5em;
+}
+
+.logo-container{
+    display:flex;
+    align-items: center;
+}
+
+.social-item {
+    width: fit-content;
+}
+
+.socials {
+    margin-right: 1em;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
