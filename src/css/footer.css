@@ -7,7 +7,7 @@ footer {
     display: flex;
     width: 100vw;    
     margin-top: auto;
-    padding: 3px;
+    padding: 1em;
 }
 
 
@@ -16,7 +16,7 @@ footer {
 }
 
 .brand-logo {
-    height: 1.5em;
+    height: 1.8em;
 }
 
 .logo-container{
@@ -36,4 +36,9 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 100vw;
+}
+
+.footer-link {
+    text-decoration: none !important;
+    color:#F6F3EA !important;
 }

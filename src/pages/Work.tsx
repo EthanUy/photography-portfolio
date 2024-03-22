@@ -18,7 +18,7 @@ const Work = () => {
             <img className="image" src={dylan}></img>
           </div>
         </div>
-        <div className="row mt-2">
+        <div className="row mt-4">
           <div className="col-md-3">
             <img className="image" src={alice}></img>
           </div>
